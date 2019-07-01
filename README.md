@@ -1,7 +1,5 @@
 # 1. Zombie-Pagers
-Zombie Pagers Workshop for No School Nevers
-
-<a href="https://docs.google.com/presentation/d/1Ye8_0CPXw5tz4qalvi-M3NbH0rnVmPnoX25OQPT_XRs/edit?usp=sharing">presentation link</a>
+Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/presentation/d/1Ye8_0CPXw5tz4qalvi-M3NbH0rnVmPnoX25OQPT_XRs/edit?usp=sharing">Presentation link</a>.
 
 #### Materials
 * Ardunio & cord
