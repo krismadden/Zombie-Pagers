@@ -21,7 +21,7 @@ Software
 
 
 # Programming
-1. Download RadioHead Library from here: (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/">First Link here</a>) or (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.91.zip">direct download link</a>) 
+1. Download RadioHead Library from here: (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/" target="_blank">First Link here</a>) or (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.91.zip">direct download link</a>) 
 2. In the Arduino IDE 
 
 
