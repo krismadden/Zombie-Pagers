@@ -13,13 +13,16 @@ Materials
 - Laptop
 
 Software
-- Arduino (Download Arduino here: https://www.arduino.cc/en/Main/Software)
+- Arduino IDE (Download Arduino here: https://www.arduino.cc/en/Main/Software)
 
 
-# Setup
+# Wiring
+
+
 
 # Programming
-
+1. Download RadioHead Library from here: (<a href="https:www.google.com">website</a>) (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.91.zip">direct download link</a>) 
+2. In the Arduino IDE 
 
 
 # Trouble Shooting
