@@ -58,27 +58,45 @@ void loop(){
  
   
     // Set buffer to size of expected message
-    uint8_t buf[24];
+    uint8_t buf[RH_ASK_MAX_MESSAGE_LEN];
     uint8_t buflen = sizeof(buf);
     // Check if received packet is correct size
     if (rf_driver.recv(buf, &buflen))
     {
-      int i;
+
       // Message with a good checksum received, dump it.
       rf_driver.printBuffer("Got:", buf, buflen);
       
       // Message received with valid checksum
       Serial.print("Message Received: ");
       Serial.println((char*)buf); 
+
+      //set OLED screen settings
       display.clearDisplay();
       display.setTextSize(1);             // Normal 1:1 pixel scale
       display.setTextColor(WHITE);        // Draw white text
       display.setCursor(0,0);
+
+      //set OLED message
       display.println((char*)buf);
+
+      //add message count
       count = count + 1;
       display.println(count);
+
+      //push to the screen
       display.display();
+
+      //wait two second
       delay(2000);
+
+      //set OLED screen settings
+      Serial.println("clear display");
+      display.clearDisplay();
+
+      //push to the screen
+      display.display();
+
     }
 
 }

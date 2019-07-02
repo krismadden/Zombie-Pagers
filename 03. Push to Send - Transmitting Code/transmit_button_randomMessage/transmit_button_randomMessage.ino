@@ -13,6 +13,21 @@ const int buttonPin = 2;
 
 int buttonState = 0; 
 
+String messages[] = {
+  "Hello No School!",
+  "Hello France!",
+  "Hello Nevers!",
+  "Hello Europe!",
+  "Hello World!",
+  "Hello Universe!",
+  "Hello Town!"
+}; 
+
+int messagesLength = 7;
+
+String message;
+
+
 void setup()
 {
     // Initialize ASK Object
@@ -20,8 +35,9 @@ void setup()
 
     // initialize the pushbutton pin as an input:
     pinMode(buttonPin, INPUT);
-
     Serial.begin(9600);
+
+    Serial.println(sizeof(messages)/sizeof(int));
 }
  
 void loop()
@@ -31,16 +47,13 @@ void loop()
 
     // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
     if (buttonState == HIGH) {
-//      const char *msg = "Hello No School eeeeeeeeeeeeeee!";
-//      rf_driver.send((uint8_t *)msg, strlen(msg));
-//      rf_driver.waitPacketSent();
-//      delay(100);
-        Serial.println("pressed");
-    }else{
-//      const char *msg = "noooooooooooooooooo";
-//      rf_driver.send((uint8_t *)msg, strlen(msg));
-//      rf_driver.waitPacketSent();
-//      delay(100);
-        Serial.print(".");
+      char copy[50];
+      messages[random(messagesLength)].toCharArray(copy,50);
+      const char *msg =  copy;
+      Serial.println(copy);
+      
+      rf_driver.send((uint8_t *)msg, strlen(msg));
+      rf_driver.waitPacketSent();
+      delay(100);
     }
 }
