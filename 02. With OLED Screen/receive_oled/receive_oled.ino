@@ -63,6 +63,9 @@ void loop(){
     // Check if received packet is correct size
     if (rf_driver.recv(buf, &buflen))
     {
+      int i;
+      // Message with a good checksum received, dump it.
+      rf_driver.printBuffer("Got:", buf, buflen);
       
       // Message received with valid checksum
       Serial.print("Message Received: ");
