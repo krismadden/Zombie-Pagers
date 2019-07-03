@@ -53,6 +53,7 @@ Find the code in the folders.
 
 Note if both arduinos are connected to the same laptop upload the transmitter code first, then the receiver code. This will allow you to open the serial port for the receiver.  
 
+To open the serial monitor press the magnifying class in the top right. Make sure the baudrate in the bottom right corner of the serial port matches that you wrote in the code, 9600. 
 <img src="http://www.sharetechnote.com/image/Arduino_Serial_02.png">
 
 ## Troubleshooting 
