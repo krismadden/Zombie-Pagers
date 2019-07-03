@@ -22,8 +22,17 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 ### Reciever 
 <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/02/433-mhz-arduino_bb.png?raw=true">
 
+### OLED
+<img src="https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/oled-display-arduino.png?raw=true">
+
+### Button
+<img src="">
+
 
 ## Programming
+
+Find the code in the folders.
+
 
 ### Download Libraries
 1. Download RadioHead Library from here: (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/" target="_blank">download link is the first on this website</a>) or (<a href="http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.91.zip">direct download link</a>) 
