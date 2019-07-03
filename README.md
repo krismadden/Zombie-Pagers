@@ -3,7 +3,7 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 
 #### Materials
 * Ardunio & cord
-* LCD Screen
+* OLED Screen
 * Radio Transmitter
 * Breadboard
 * Male Wires
@@ -16,6 +16,11 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 
 ## Wiring
 
+###Transmitter
+<img src=“”>
+
+###Reciever 
+<img src=“”>
 
 
 ## Programming
@@ -30,5 +35,13 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 ### Programming // Write Code
 
 ### Programming // Upload To Arduino
+1. Make sure you have the correct board type selected (ie arduino uno). 
+2. Make sure you have the correct port selected. (Note: the port name refers to the USB port and not the Arduino).
+3. Verify the code
+4. Upload the code
 
-## Trouble Shooting
+Note if both arduinos are connected to the same laptop upload the transmitter code first, then the receiver code. This will allow you to open the serial port for the receiver.  
+
+## Troubleshooting 
+
+((Solutions to common problems will be updated here)).
