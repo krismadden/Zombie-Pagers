@@ -53,6 +53,8 @@ Find the code in the folders.
 
 Note if both arduinos are connected to the same laptop upload the transmitter code first, then the receiver code. This will allow you to open the serial port for the receiver.  
 
+<img src="http://www.sharetechnote.com/image/Arduino_Serial_02.png">
+
 ## Troubleshooting 
 
 ((Solutions to common problems will be updated here)).
