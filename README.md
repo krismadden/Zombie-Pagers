@@ -45,8 +45,9 @@ Find the code in the folders.
 
 ### Programming // Upload To Arduino
 1. Make sure you have the correct board type selected (ie arduino uno).
-<b>Tools<\b> >  <b>Board<\b> > <b>Arduino/Genuine Uno<\b>
+<b>Tools</b> >  <b>Board</b> > <b>Arduino/Genuine Uno</b>
 2. Make sure you have the correct port selected. (Note: the port name refers to the USB port and not the Arduino).
+<b>Tools</b> >  <b>Port</b> > (something like)<b>COM2</b> (For PC or) <b>/dev/ttyusbmodemmfa132</b>
 3. Verify the code
 4. Upload the code
 
