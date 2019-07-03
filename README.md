@@ -16,10 +16,10 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 
 ## Wiring
 
-###Transmitter
+### Transmitter
 <img src=“”>
 
-###Reciever 
+### Reciever 
 <img src=“”>
 
 
