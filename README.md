@@ -17,7 +17,7 @@ Zombie Pagers Workshop for No School Nevers. <a href="https://docs.google.com/pr
 ## Wiring
 
 ### Transmitter
-<img src=“https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/07/433-mhz-arduino-transmitter_bb.png?resize=486%2C527&ssl=1”>
+<img src=“https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/07/433-mhz-arduino-transmitter_bb.png?raw=true”>
 
 ### Reciever 
 <img src=“”>
